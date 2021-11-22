@@ -6,4 +6,4 @@ void draw() {}//End draw()
 
 void mousePressed() {}//End mousePressed()
 
-void keyPressed(0 {]//End keyPressed()
+void keyPressed() {]//End keyPressed()
