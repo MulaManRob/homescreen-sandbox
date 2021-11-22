@@ -11,12 +11,10 @@ void setup() {
   ptDiameter = width * 1 / 27.77777777;
   rectWidth = width*1/3;
   rectHeight = height*1/3;
-  //
   pt1X = pt5X = pt9X = pt13X = width*0/3;
   pt2X = pt6X = pt10X = pt14X = width*1/3;
   pt3X = pt7X = pt11X = pt15X = width*2/3;
   pt4X = pt8X = pt12X = pt16X = width*3/3;
-  //
   pt1Y = pt2Y = pt3Y = pt4Y = height*0/3;
   pt5Y = pt6Y = pt7Y = pt8Y = height*1/3;
   pt9Y = pt10Y = pt11Y = pt12Y = height*2/3;
@@ -27,15 +25,12 @@ void draw() {
   rect(pt1X, pt1Y, rectWidth, rectHeight);
   rect(pt2X, pt2Y, rectWidth, rectHeight);
   rect(pt3X, pt3Y, rectWidth, rectHeight);
-  //
   rect(pt5X, pt5Y, rectWidth, rectHeight);
   rect(pt6X, pt6Y, rectWidth, rectHeight);
   rect(pt7X, pt7Y, rectWidth, rectHeight);
-  //
   rect(pt9X, pt9Y, rectWidth, rectHeight);
   rect(pt10X, pt10Y, rectWidth, rectHeight);
   rect(pt11X, pt11Y, rectWidth, rectHeight);
-  //
   fill(black);
   //
   ellipse(pt1X, pt1Y, ptDiameter, ptDiameter);
