@@ -15,7 +15,7 @@ void setup()
   ptY1 = height*0;
   rectWidth  = width*1/3;
   rectHeight  = height*1/3;
-  circleDiameter = width*1/20;
+  circleDiameter = width*1/50;
   //
 }//End setup()
 
