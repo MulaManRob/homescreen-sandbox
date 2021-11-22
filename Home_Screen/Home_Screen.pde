@@ -1,9 +1,21 @@
 //3x3 Home Screen
 
-void setup() {}//End setup()
 
-void draw() {}//End draw()
+//Global variables
+float ptX1, ptY, rectWidth, rectHeight;
+void setup()
+{
+}//End setup()
 
-void mousePressed() {}//End mousePressed()
+void draw()
+{
+  rect(ptX1, ptY, rectWidth, rectHeight);
+}//End draw()
 
-void keyPressed() {}//End keyPressed()
+void mousePressed()
+{
+}//End mousePressed()
+
+void keyPressed()
+{
+}//End keyPressed()
