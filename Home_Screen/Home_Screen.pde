@@ -26,7 +26,7 @@ void draw() {
 
   //game start!
   if (game == 1) {
-    checkGame();  // check if  player win
+    checkGame();
     for (int i = 0*width/1; i<cols; i++) {
       for (int j = 0*width/1; j<rows; j++) {
         board[i][j].display();
